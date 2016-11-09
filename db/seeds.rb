@@ -9,168 +9,168 @@ items = [
     description: 'milk chocolate bar, 1.55 ounces',
     price: 1.99,
     stock: 20,
-    image: image_path('assets/hershey')
+    image: 'assets/hershey'
   },
   {
     name: 'Nerds',
     description: 'Bite size colorful flavorful sour snaps, 1.55 ounces',
     price: 1.99,
     stock: 20,
-    image: image_path('assets/nerds')
+    image: 'assets/nerds'
   },
   {
     name: 'Green Apple Licorice',
     description: '15 pieces, real apple taste!',
     price: 2.50,
     stock: 20,
-    image: image_path('assets/green_licorice')
+    image: 'assets/green_licorice'
   },
   {
     name: 'Watermelon Licorice',
     description: '15 pieces, real watermelon taste!',
     price: 2.50,
     stock: 20,
-    image: image_path('assets/hersheys_twizzlers_watermelon')
+    image: 'assets/hersheys_twizzlers_watermelon'
   },
   {
     name: 'Cherry Licorice',
     description: '15 pieces, real cherry taste!',
     price: 2.50,
     stock: 20,
-    image: image_path('assets/cherry_licorice')
+    image: 'assets/cherry_licorice'
   },
   {
     name: 'Blue Rasberry Licorice',
     description: '15 pieces, real raspberry taste!',
     price: 2.50,
     stock: 20,
-    image: image_path('assets/blue-licorice')
+    image: 'assets/blue-licorice'
   },
   {
     name: 'Nerds Rope',
     description: 'direct from the Wonka Factory, made of nerds and joy, 1.55 ounces',
     price: 1.99,
     stock: 20,
-    image: image_path('assets/nerds-rope')
+    image: 'assets/nerds-rope'
   },
   {
     name: 'Apple Heads',
     description: 'apple crunch drops',
     price: 1.99,
     stock: 20,
-    image: image_path('assets/apple_heads')
+    image: 'assets/apple_heads'
   },
   {
     name: 'Haribo Gummy Bears',
     description: 'the original gummy bear',
     price: 2.99,
     stock: 20,
-    image: image_path('assets/haribo')
+    image: 'assets/haribo'
   },
   {
     name: 'Sour Gummy Worms',
     description: 'stringy sour and sweet strands of goodness',
     price: 2.99,
     stock: 20,
-    image: image_path('assets/sour-gummy-worms')
+    image: 'assets/sour-gummy-worms'
   },
   {
     name: 'Sour Watemelon Slices',
     description: 'sour patch kids sour melon slices',
     price: 2.99,
     stock: 20,
-    image: image_path('assets/Sour_Patch_Watermelon_Slices')
+    image: 'assets/Sour_Patch_Watermelon_Slices'
   },
   {
     name: 'Warheads',
     description: '20 pieces, an assortment of flavors guaranteed to make you cry',
     price: 2.99,
     stock: 20,
-    image: image_path('assets/warheads')
+    image: 'assets/warheads'
   },
   {
     name: 'Sour Strips',
     description: '10 strips per package, intense sour flavor',
     price: 3.99,
     stock: 20,
-    image: image_path('assets/sour_strips')
+    image: 'assets/sour_strips'
   },
   {
     name: 'Butterfinger',
     description: 'milk chocolate bar with peanut butter crunch',
     price: 0.99,
     stock: 20,
-    image: image_path('assets/butterfinger')
+    image: 'assets/butterfinger'
   },
   {
     name: "M&M'S",
     description: 'milk chocolate pices with peanut center',
     price: 0.99,
     stock: 20,
-    image: image_path('assets/mms')
+    image: 'assets/mms'
   },
   {
     name: 'Twix',
     description: 'milk chocolate bar, 1.55 ounces',
     price: 0.99,
     stock: 20,
-    image: image_path('assets/twix')
+    image: 'assets/twix'
   },
   {
     name: 'Mango Hi-Chew',
     description: 'mango fruit chew',
     price: 1.29,
     stock: 20,
-    image: image_path('assets/mango-hi-chew')
+    image: 'assets/mango-hi-chew'
   },
   {
     name: 'Green Apple Hi-Chew',
     description: 'green apple fruit chew',
     price: 1.29,
     stock: 20,
-    image: image_path('assets/apple-hi-chew')
+    image: 'assets/apple-hi-chew'
   },
   {
     name: 'Cherry Hi-Chew',
     description: 'cherry fruit chew',
     price: 1.29,
     stock: 20,
-    image: image_path('assets/cherry-hi-chew')
+    image: 'assets/cherry-hi-chew'
   },
   {
     name: 'Grape Hi-Chew',
     description: 'grape fruit chew',
     price: 1.29,
     stock: 20,
-    image: image_path('assets/Hi-Chew-Grape')
+    image: 'assets/Hi-Chew-Grape'
   },
   {
     name: 'Jelly Belly Jelly Beans',
     description: 'assortment of all 49 flavors',
     price: 1.99,
     stock: 20,
-    image: image_path('assets/jellybelly')
+    image: 'assets/jellybelly'
   },
   {
     name: 'Starburst',
     description: 'unbelievably juicy candy chews',
     price: 1.29,
     stock: 20,
-    image: image_path('assets/starburst')
+    image: 'assets/starburst'
   },
   {
     name: 'Skittles',
     description: 'bite size fruit crunchies with a  soft center, taste the rainbow',
     price: 1.29,
     stock: 20,
-    image: image_path('assets/skittles')
+    image: 'assets/skittles'
   },
   {
     name: 'Ghirardelli Milk Chocolate Squares with Caramel Filling',
     description: 'milk chocolate bar with sweet caramel filling, 1.55 ounces',
     price: 9.99,
     stock: 20,
-    image: image_path('assets/ghirardelli')
+    image: 'assets/ghirardelli'
   }
 ]
 

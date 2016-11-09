@@ -4,174 +4,175 @@ User.destroy_all
 Item.destroy_all
 
 items = [
-  {
-    name: "Hershey's Chocolate Bar",
-    description: 'milk chocolate bar, 1.55 ounces',
-    price: 1.99,
-    stock: 20,
-    image: 'assets/hershey'
-  },
-  {
-    name: 'Nerds',
-    description: 'Bite size colorful flavorful sour snaps, 1.55 ounces',
-    price: 1.99,
-    stock: 20,
-    image: 'assets/nerds'
-  },
-  {
-    name: 'Green Apple Licorice',
-    description: '15 pieces, real apple taste!',
-    price: 2.50,
-    stock: 20,
-    image: 'assets/green_licorice'
-  },
-  {
-    name: 'Watermelon Licorice',
-    description: '15 pieces, real watermelon taste!',
-    price: 2.50,
-    stock: 20,
-    image: 'assets/hersheys_twizzlers_watermelon'
-  },
-  {
-    name: 'Cherry Licorice',
-    description: '15 pieces, real cherry taste!',
-    price: 2.50,
-    stock: 20,
-    image: 'assets/cherry_licorice'
-  },
-  {
-    name: 'Blue Rasberry Licorice',
-    description: '15 pieces, real raspberry taste!',
-    price: 2.50,
-    stock: 20,
-    image: 'assets/blue-licorice'
-  },
-  {
-    name: 'Nerds Rope',
-    description: 'direct from the Wonka Factory, made of nerds and joy, 1.55 ounces',
-    price: 1.99,
-    stock: 20,
-    image: 'assets/nerds-rope'
-  },
+  # {
+  #   name: "Hershey's Chocolate Bar",
+  #   description: 'milk chocolate bar, 1.55 ounces',
+  #   price: 1.99,
+  #   stock: 20,
+  #   image: 'assets/hershey'
+  # },
+  # {
+  #   name: 'Nerds',
+  #   description: 'Bite size colorful flavorful sour snaps, 1.55 ounces',
+  #   price: 1.99,
+  #   stock: 20,
+  #   image: 'assets/nerds'
+  # },
+  # {
+  #   name: 'Green Apple Licorice',
+  #   description: '15 pieces, real apple taste!',
+  #   price: 2.50,
+  #   stock: 20,
+  #   image: 'assets/green_licorice'
+  # },
+  # {
+  #   name: 'Watermelon Licorice',
+  #   description: '15 pieces, real watermelon taste!',
+  #   price: 2.50,
+  #   stock: 20,
+  #   image: 'assets/hersheys_twizzlers_watermelon'
+  # },
+  # {
+  #   name: 'Cherry Licorice',
+  #   description: '15 pieces, real cherry taste!',
+  #   price: 2.50,
+  #   stock: 20,
+  #   image: 'assets/cherry_licorice'
+  # },
+  # {
+  #   name: 'Blue Rasberry Licorice',
+  #   description: '15 pieces, real raspberry taste!',
+  #   price: 2.50,
+  #   stock: 20,
+  #   image: 'assets/blue-licorice'
+  # },
+  # {
+  #   name: 'Nerds Rope',
+  #   description: 'direct from the Wonka Factory, made of nerds and joy, 1.55 ounces',
+  #   price: 1.99,
+  #   stock: 20,
+  #   image: 'assets/nerds-rope'
+  # },
   {
     name: 'Apple Heads',
     description: 'apple crunch drops',
     price: 1.99,
     stock: 20,
-    image: 'assets/apple_heads'
-  },
-  {
-    name: 'Haribo Gummy Bears',
-    description: 'the original gummy bear',
-    price: 2.99,
-    stock: 20,
-    image: 'assets/haribo'
-  },
-  {
-    name: 'Sour Gummy Worms',
-    description: 'stringy sour and sweet strands of goodness',
-    price: 2.99,
-    stock: 20,
-    image: 'assets/sour-gummy-worms'
-  },
-  {
-    name: 'Sour Watemelon Slices',
-    description: 'sour patch kids sour melon slices',
-    price: 2.99,
-    stock: 20,
-    image: 'assets/Sour_Patch_Watermelon_Slices'
-  },
-  {
-    name: 'Warheads',
-    description: '20 pieces, an assortment of flavors guaranteed to make you cry',
-    price: 2.99,
-    stock: 20,
-    image: 'assets/warheads'
-  },
-  {
-    name: 'Sour Strips',
-    description: '10 strips per package, intense sour flavor',
-    price: 3.99,
-    stock: 20,
-    image: 'assets/sour_strips'
-  },
-  {
-    name: 'Butterfinger',
-    description: 'milk chocolate bar with peanut butter crunch',
-    price: 0.99,
-    stock: 20,
-    image: 'assets/butterfinger'
-  },
-  {
-    name: "M&M'S",
-    description: 'milk chocolate pices with peanut center',
-    price: 0.99,
-    stock: 20,
-    image: 'assets/mms'
-  },
-  {
-    name: 'Twix',
-    description: 'milk chocolate bar, 1.55 ounces',
-    price: 0.99,
-    stock: 20,
-    image: 'assets/twix'
-  },
-  {
-    name: 'Mango Hi-Chew',
-    description: 'mango fruit chew',
-    price: 1.29,
-    stock: 20,
-    image: 'assets/mango-hi-chew'
-  },
-  {
-    name: 'Green Apple Hi-Chew',
-    description: 'green apple fruit chew',
-    price: 1.29,
-    stock: 20,
-    image: 'assets/apple-hi-chew'
-  },
-  {
-    name: 'Cherry Hi-Chew',
-    description: 'cherry fruit chew',
-    price: 1.29,
-    stock: 20,
-    image: 'assets/cherry-hi-chew'
-  },
-  {
-    name: 'Grape Hi-Chew',
-    description: 'grape fruit chew',
-    price: 1.29,
-    stock: 20,
-    image: 'assets/Hi-Chew-Grape'
-  },
-  {
-    name: 'Jelly Belly Jelly Beans',
-    description: 'assortment of all 49 flavors',
-    price: 1.99,
-    stock: 20,
-    image: 'assets/jellybelly'
-  },
-  {
-    name: 'Starburst',
-    description: 'unbelievably juicy candy chews',
-    price: 1.29,
-    stock: 20,
-    image: 'assets/starburst'
-  },
-  {
-    name: 'Skittles',
-    description: 'bite size fruit crunchies with a  soft center, taste the rainbow',
-    price: 1.29,
-    stock: 20,
-    image: 'assets/skittles'
-  },
-  {
-    name: 'Ghirardelli Milk Chocolate Squares with Caramel Filling',
-    description: 'milk chocolate bar with sweet caramel filling, 1.55 ounces',
-    price: 9.99,
-    stock: 20,
-    image: 'assets/ghirardelli'
+    image: 'https://www.dropbox.com/s/414sms3jg9pf0nx/apple_heads.png'
   }
+  # ,
+  # {
+  #   name: 'Haribo Gummy Bears',
+  #   description: 'the original gummy bear',
+  #   price: 2.99,
+  #   stock: 20,
+  #   image: 'assets/haribo'
+  # },
+  # {
+  #   name: 'Sour Gummy Worms',
+  #   description: 'stringy sour and sweet strands of goodness',
+  #   price: 2.99,
+  #   stock: 20,
+  #   image: 'assets/sour-gummy-worms'
+  # },
+  # {
+  #   name: 'Sour Watemelon Slices',
+  #   description: 'sour patch kids sour melon slices',
+  #   price: 2.99,
+  #   stock: 20,
+  #   image: 'assets/Sour_Patch_Watermelon_Slices'
+  # },
+  # {
+  #   name: 'Warheads',
+  #   description: '20 pieces, an assortment of flavors guaranteed to make you cry',
+  #   price: 2.99,
+  #   stock: 20,
+  #   image: 'assets/warheads'
+  # },
+  # {
+  #   name: 'Sour Strips',
+  #   description: '10 strips per package, intense sour flavor',
+  #   price: 3.99,
+  #   stock: 20,
+  #   image: 'assets/sour_strips'
+  # },
+  # {
+  #   name: 'Butterfinger',
+  #   description: 'milk chocolate bar with peanut butter crunch',
+  #   price: 0.99,
+  #   stock: 20,
+  #   image: 'assets/butterfinger'
+  # },
+  # {
+  #   name: "M&M'S",
+  #   description: 'milk chocolate pices with peanut center',
+  #   price: 0.99,
+  #   stock: 20,
+  #   image: 'assets/mms'
+  # },
+  # {
+  #   name: 'Twix',
+  #   description: 'milk chocolate bar, 1.55 ounces',
+  #   price: 0.99,
+  #   stock: 20,
+  #   image: 'assets/twix'
+  # },
+  # {
+  #   name: 'Mango Hi-Chew',
+  #   description: 'mango fruit chew',
+  #   price: 1.29,
+  #   stock: 20,
+  #   image: 'assets/mango-hi-chew'
+  # },
+  # {
+  #   name: 'Green Apple Hi-Chew',
+  #   description: 'green apple fruit chew',
+  #   price: 1.29,
+  #   stock: 20,
+  #   image: 'assets/apple-hi-chew'
+  # },
+  # {
+  #   name: 'Cherry Hi-Chew',
+  #   description: 'cherry fruit chew',
+  #   price: 1.29,
+  #   stock: 20,
+  #   image: 'assets/cherry-hi-chew'
+  # },
+  # {
+  #   name: 'Grape Hi-Chew',
+  #   description: 'grape fruit chew',
+  #   price: 1.29,
+  #   stock: 20,
+  #   image: 'assets/Hi-Chew-Grape'
+  # },
+  # {
+  #   name: 'Jelly Belly Jelly Beans',
+  #   description: 'assortment of all 49 flavors',
+  #   price: 1.99,
+  #   stock: 20,
+  #   image: 'assets/jellybelly'
+  # },
+  # {
+  #   name: 'Starburst',
+  #   description: 'unbelievably juicy candy chews',
+  #   price: 1.29,
+  #   stock: 20,
+  #   image: 'assets/starburst'
+  # },
+  # {
+  #   name: 'Skittles',
+  #   description: 'bite size fruit crunchies with a  soft center, taste the rainbow',
+  #   price: 1.29,
+  #   stock: 20,
+  #   image: 'assets/skittles'
+  # },
+  # {
+  #   name: 'Ghirardelli Milk Chocolate Squares with Caramel Filling',
+  #   description: 'milk chocolate bar with sweet caramel filling, 1.55 ounces',
+  #   price: 9.99,
+  #   stock: 20,
+  #   image: 'assets/ghirardelli'
+  # }
 ]
 
 Item.create(items)
